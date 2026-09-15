@@ -1,0 +1,24 @@
+{
+  "source": "/path/to/your-video.mp4",
+  "fps": 30,
+  "source_duration_frames": 3300,
+  "brand_span": {"start_frame": 270, "end_frame": 420},
+  "versions": [
+    {"name": "A", "segments": [
+      {"start_frame": 1800, "end_frame": 2010, "role": "hook"},
+      {"start_frame": 270, "end_frame": 420, "role": "brand"},
+      {"start_frame": 0, "end_frame": 270, "role": "body"},
+      {"start_frame": 450, "end_frame": 1800, "role": "body"},
+      {"start_frame": 2010, "end_frame": 3000, "role": "body"},
+      {"start_frame": 3000, "end_frame": 3300, "role": "payoff"}
+    ]},
+    {"name": "B", "segments": [
+      {"start_frame": 900, "end_frame": 990, "role": "hook"},
+      {"start_frame": 270, "end_frame": 420, "role": "brand"},
+      {"start_frame": 0, "end_frame": 270, "role": "body"},
+      {"start_frame": 450, "end_frame": 900, "role": "body"},
+      {"start_frame": 990, "end_frame": 3000, "role": "body"},
+      {"start_frame": 3000, "end_frame": 3300, "role": "payoff"}
+    ]}
+  ]
+}
