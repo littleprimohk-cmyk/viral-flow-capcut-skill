@@ -13,3 +13,5 @@ __pycache__/
 .env*
 work/
 outputs/
+
+!dist/viral-flow-capcut-claude.zip

@@ -5,6 +5,12 @@ description: Turn a speech-led video into two complete story edits based on a re
 
 # Viral Flow → Two Approved CapCut Edits
 
+## Host compatibility
+
+Use this same skill in Codex, Claude Code, or Claude with custom skills. Resolve bundled references/scripts relative to this skill folder. `agents/openai.yaml` is optional Codex metadata; Claude does not need it. Use the host's actual tools rather than assuming Codex tool names exist.
+
+Check access to the source, local Whisper and the user's CapCut before promising execution. A cloud shell is not the user's Mac: do not treat cloud file access or code execution as local CapCut control. If only transcripts are available, prepare provisional flows from them, label source timing/audio as unverified, and request the missing media or local tool access before promising cut-ready results. Never silently send local footage to cloud transcription or claim Whisper ran when it did not. In Claude web chat, supplied transcripts can support text review; CapCut editing requires a host connected to the user's computer with the required permissions.
+
 ## Outcome and persistent defaults
 
 Deliver two distinct, coherent video flows grounded in the user's footage, not two invented scripts. Work in the user's language (Cantonese with Traditional Chinese by default).

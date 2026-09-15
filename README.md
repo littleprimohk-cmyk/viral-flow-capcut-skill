@@ -2,7 +2,7 @@
 
 把一條口播影片整理成 **兩個完整文字 flow**，等你確認之後，再用 **CapCut 剪成兩條影片**。預設只剪 flow、保留原聲，不加字幕或其他文字。
 
-本套件把一次真實工作流程保留下來，包括爆紅參考的敘事分析、Hook 修訂原則、文字審閱關卡，以及 CapCut 成片交付方法。它是給 Codex 使用的 skill，不是 CapCut 本身的外掛，也不是一鍵保證爆紅的工具。
+本套件把一次真實工作流程保留下來，包括爆紅參考的敘事分析、Hook 修訂原則、文字審閱關卡，以及 CapCut 成片交付方法。它是給 Codex、Claude Code 和 Claude 自訂 Skills 使用的 skill，不是 CapCut 本身的外掛，也不是一鍵保證爆紅的工具。
 
 ## 每次會做甚麼？
 
@@ -33,6 +33,12 @@
 | Python 3、FFmpeg、openai-whisper | 本機音訊抽取及轉錄 |
 
 **Skill 不會自動授予電腦操作權限，也不會把 ChatCut 當成 CapCut。** 如果你的 Codex 環境沒有可用的 App 操作工具，仍可做文字 flow，但不能承諾自動剪輯成片。Windows 的 CapCut 自動操作與原生專案路徑未在本案例驗證。
+
+## Claude 安裝入口
+
+- **Claude／Cowork：** 下載 [Claude 專用 ZIP](dist/viral-flow-capcut-claude.zip)，到 Claude 的 **Customize → Skills → ＋ → Create skill → Upload a skill** 上載並啟用。
+- **本機 Claude Code：** 下載整個 repository ZIP 並解壓，執行 `python3 install.py --target claude`；新 session 輸入 `/viral-flow-capcut`。
+- [完整 Claude 安裝、使用及能力說明](docs/claude-install.md)。原有 Codex 安裝方法如下。
 
 ## 安裝方法 A：叫 Codex 安裝（最簡單）
 

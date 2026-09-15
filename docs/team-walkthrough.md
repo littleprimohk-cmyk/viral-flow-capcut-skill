@@ -14,6 +14,10 @@
 
 「安裝的是工作流程，不是 CapCut。你仍需要本機 CapCut、Whisper／FFmpeg 和可以操作 App 的 Codex 工具。」
 
+### Claude 同事
+
+Claude／Cowork：依 [Claude 安裝教學](claude-install.md) 上載專用 ZIP 並啟用。Claude Code：執行 `python3 install.py --target claude`，用 `/viral-flow-capcut` 開始。下面 Codex 的 `$viral-flow-capcut` 寫法，在 Claude 一般聊天改成「用 viral-flow-capcut skill」。先確認本機工具是否可用；安裝成功不等於能控制 CapCut。
+
 ## 3. 驗證已安裝
 
 在新回合輸入：
